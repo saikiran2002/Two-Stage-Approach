@@ -37,7 +37,8 @@ work_dir = root_dir + "dataset/"
 if os.path.exists(work_dir):
     remove_tree(work_dir)
 
-os.mkdir("./models/")
+if not os.path.exists("./models/"):
+    os.mkdir("./models/")
 os.mkdir(work_dir)
 copy_tree(train_dir, work_dir)
 copy_tree(test_dir, work_dir)
