@@ -86,4 +86,5 @@ pip install -U -r requirements.txt
     ```
     Note: Make Sure **utils.py** is in the same directory as the python files
     
-    All the models will be saved in the ***models*** folder 
+    All the models will be saved in the ***models*** folder
+  Link for Research paper: <a href="https://ieeexplore.ieee.org/document/10101037">Deep-learning Residual Network Based Image Analysis for An Efficient Two-Stage Recognition of Neurological Disorders </a>
